@@ -5,8 +5,10 @@ import './ReactionFooter.css'
 
 const ReactionFooter = props => (
   <div className="reaction-footer">
-    <Link to="/"> Go back </Link>
-    <p>Footer</p>
+    <ul>
+      <li>Thumbs Up</li>
+      <li>Report Reaction</li>
+    </ul>
   </div>
 )
 

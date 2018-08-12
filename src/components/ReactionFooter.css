@@ -1,0 +1,18 @@
+.reaction-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* height: 50px; */
+}
+
+.reaction-footer ul {
+  display: flex;
+  margin: 5px 0;
+  padding: 0;
+}
+
+.reaction-footer ul li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}

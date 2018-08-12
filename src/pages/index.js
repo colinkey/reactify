@@ -1,11 +1,9 @@
 import React from 'react'
 import Link from 'gatsby-link'
 
-import Header from '../components/header'
-
 const IndexPage = ({ data }) => (
   <div>
-    <Header siteTitle={data.site.siteMetadata.title} />
+    <h1>Reactify!</h1>
     <Link to="/reaction">Test hello hi</Link>
   </div>
 )
