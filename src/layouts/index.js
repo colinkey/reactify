@@ -3,6 +3,7 @@ import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
 
 import './index.css'
+import './app.css'
 
 const Layout = ({ children, data }) => (
   <div>
